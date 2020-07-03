@@ -1,0 +1,19 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+  <div class='jumbotron'>
+      <h1>不负美好时光~~~</h1>        
+  </div>
+{% endblock %}
+
+{% block content %}
+  <h2>
+    <a href="{% url 'users:register' %}">点击注册</a>一个账户以获得你专属的云笔记本, 然后使用它记录你的生活！
+  </h2>
+  <h2>
+    当你从某个主题中学到了新的内容，就可以创建一条新记录来汇总它。
+  </h2>
+  <h2>
+    如果你生活中遇到了什么难题，或者有什么开心的事情，这里将会留存你的秘密。
+  </h2>
+{% endblock %}
